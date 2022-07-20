@@ -4,29 +4,31 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace EntityFrame.Models
 {
 
-    [Table("cuentas")]
     public class Account
     {
 
-        [Key]
         public string id_cta { get; set; }
 
-        [Required]
+   
         public string num_cta { get; set; }
 
-        [Required]
-        [StringLength(3)]
+  
         public string moneda { get; set; }
 
-        [Required]
-        public float saldo { get; set; }
+ 
+        public double saldo { get; set; }
 
-        [Required]
-        [ForeignKey("cedula")]
-        public string cedula_cliente { get; set; }
 
-        [Required]
-        [ForeignKey("codigo_banco")]
+        public string cedula_cliente { get; set; }  
+
+
         public string cod_banco { get; set; }
+        public virtual Client cedula { get; set; }
+
+        public virtual Bank codigo_banco { get; set; }
+
+        public virtual ICollection<Transfer> numero_cta_origen { get; set; }
+
+        public virtual ICollection<Transfer> numero_cta_destino { get; set; }
     }
 }
