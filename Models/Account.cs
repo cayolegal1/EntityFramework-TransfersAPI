@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace EntityFrame.Models
 {
@@ -26,9 +27,11 @@ namespace EntityFrame.Models
         public virtual Client cedula { get; set; }
 
         public virtual Bank codigo_banco { get; set; }
-
+        
+        [JsonIgnore]
         public virtual ICollection<Transfer> numero_cta_origen { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Transfer> numero_cta_destino { get; set; }
     }
 }

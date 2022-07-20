@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "zcHM4Fml8p9nq3UPSxwYGSSqgd6Z9kD4bH+o48GQv1U3OaFwCAF7i9ma8AhERBM8lfxR5GqpEPjTPPqhy/o0Uw==",
+  "dgSpecHash": "ljHlTL24BNmnPh0FbaWB6wPoKkYwLl2wPB7IE5EkTbN7OagFzlQpROjIu9J373JD6/pzRy195iUPkcfw3fD69w==",
   "success": true,
   "projectFilePath": "C:\\Users\\clegal\\Documents\\TestBackend\\EntityFrame\\EntityFrame.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\clegal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.5\\microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.5\\microsoft.entityframeworkcore.inmemory.6.0.5.nupkg.sha512",
-    "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
+    "C:\\Users\\clegal\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.5\\microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\clegal\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

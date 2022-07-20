@@ -27,3 +27,5 @@ C:\Users\clegal\Documents\TestBackend\EntityFrame\obj\Debug\net6.0\refint\Entity
 C:\Users\clegal\Documents\TestBackend\EntityFrame\obj\Debug\net6.0\EntityFrame.pdb
 C:\Users\clegal\Documents\TestBackend\EntityFrame\obj\Debug\net6.0\EntityFrame.genruntimeconfig.cache
 C:\Users\clegal\Documents\TestBackend\EntityFrame\obj\Debug\net6.0\ref\EntityFrame.dll
+C:\Users\clegal\Documents\TestBackend\EntityFrame\bin\Debug\net6.0\Humanizer.dll
+C:\Users\clegal\Documents\TestBackend\EntityFrame\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

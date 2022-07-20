@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace EntityFrame.Models
 {
@@ -12,6 +13,7 @@ namespace EntityFrame.Models
 
         public string nombre_apellido { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Account> cedula_ac { get; set; }
     }
 }

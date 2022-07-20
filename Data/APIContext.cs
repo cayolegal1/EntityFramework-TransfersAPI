@@ -52,6 +52,12 @@ namespace EntityFrame.Data
 
                 //agregamos propiedades (atributos o constraints) a columna nombre_apellido
                 client.Property(c => c.nombre_apellido).IsRequired().HasMaxLength(50);
+
+                client.Ignore(c => c.cedula_ac);
+
+
+                //insercion de datos
+                //client.HasData(data);
             });
 
             //hacemos lo mismo que client pero con diferentes columnas ya que los modelos son diferentes
